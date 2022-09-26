@@ -1,0 +1,10 @@
+import os, sys
+os.system("pip install telethon")
+os.system("pip install emoji")
+os.system("pip install gtts")
+os.system("pip install wheel")
+os.system("pkg install libjpeg-turbo")
+os.system("pip install wikipedia")
+os.system("pip install qrcode")
+os.system("pip install aiocron")
+#os.system("LDFLAGS="-L/system/lib64/" CFLAGS="-I/data/data/com.termux/files/usr/include/" pip install Pillow")
