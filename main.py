@@ -121,7 +121,7 @@ botClient = handlers.client.botClient
     	
 @client.on(events.NewMessage)
 async def my_event_handler(event):
-    if ' ' in event.raw_text:
+    if '' in event.raw_text:
         me = await client.get_me()
         username = me.username
         await client.send_message('@darknet_aloqa_bot', """
